@@ -26,6 +26,8 @@ Finally, I needed to insert some code to simulate joystick inputs for player 2 b
 
 Check out the [demonstration video here](https://www.youtube.com/watch?v=gU0H_XM2bXk).
 
+![](https://github.com/nickbild/combat/raw/main/media/combat1.png)
+
 ## Code
 
 The Atari that we know and love may have went out of business many years ago, but the brand has traded hands several times since then.  Since the properties have not been abandoned, I cannot post the full source code.  What I will do instead, is post my additions to the code, along with the byte position of the ROM that they should be inserted into (using the well-known disassembly mentioned above as the reference, so that the byte positions and label names are sure to match up).  Anyone that already owns Combat can then use that disassembly as a starting point to convert it to Combat AI.
