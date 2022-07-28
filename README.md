@@ -22,7 +22,11 @@ In order to predict the best action for the AI player to take, I needed to know 
 
 Finally, I needed to insert some code to simulate joystick inputs for player 2 based on the predictions made by the machine learning model.  With the code I had already removed, I had just enough cycles to slide this in.  The result is a 1-player version of Combat, in which the player 2 tank will aggressively pursue you and fire missiles in your direction when in range.  I focused entirely on the tank game (variation 1), so planes and jets are not presently supported.
 
-### Code
+## Media
+
+Check out the [demonstration video here](https://www.youtube.com/watch?v=gU0H_XM2bXk).
+
+## Code
 
 The Atari that we know and love may have went out of business many years ago, but the brand has traded hands several times since then.  Since the properties have not been abandoned, I cannot post the full source code.  What I will do instead, is post my additions to the code, along with the byte position of the ROM that they should be inserted into (using the well-known disassembly mentioned above as the reference, so that the byte positions and label names are sure to match up).  Anyone that already owns Combat can then use that disassembly as a starting point to convert it to Combat AI.
 
@@ -634,9 +638,9 @@ TrainClass
 	ORG $FFFC
 ```
 
-## Media
-
 ## Bill of Materials
+
+- 1 x Atari 2600 or emulator
 
 ## About the Author
 
