@@ -9,3 +9,5 @@ The 2-player only Atari classic Combat can now be played against an AI opponent.
 ## Bill of Materials
 
 ## About the Author
+
+[Nick A. Bild, MS](https://nickbild79.firebaseapp.com/#!/)
